@@ -1,1 +1,503 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    
+}
+.ten{
+    display: block;
+    height: 100vh;
+}
+.ten .hero {
+        background-color: #101010;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.menubar{
+    height: 3px;
+    width: 20px;
+    background-color: rgb(252, 251, 255);
+    margin-bottom: 3px;
+}
+.menu{
+    cursor: pointer;
+    display: none;
+}
+.showmenu{
+    display: block;
+}
+.about{
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.ab-text{
+    width: 550px;
 
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ab-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.ab-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+span{
+    color: #f9004d;
+}
+.ab-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+
+font-weight: bold;
+padding: 13px 30px;
+border-radius: 30px;
+transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+/*..service part*/
+
+.service{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    display: inline-block;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+.contact .but-2{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.contact .but-2:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background:#101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.loot{
+    color: rgb(158, 242, 253);
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.loot:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.soc{
+    display: flex;
+
+}
+.soc a{
+    
+    align-items: center;
+    justify-content: center;
+    margin: 22px 10px; 
+    color: #f9004d;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.soc a:hover{
+    background-color: aqua;
+    border: 2px solid aqua;
+    color: white;
+    cursor: pointer;  
+    border-radius: 20px;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+/*skills*/
+
+.skill{
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.skill img{
+    height: auto;
+    border-radius: 220px;
+    border:3px solid aqua;
+    width: 430px;
+}
+.ab-texts{
+    width: 550px;
+
+}
+.mains{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ab-texts h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.ab-texts h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+span{
+    color: #f9004d;
+}
+.ab-texts .sk{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.project .pro{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+/* media query*/
+@media (min-width:280px) and (max-width:500px)
+ {
+    html{
+font-size: 65%;
+    }
+    nav{
+        flex-direction: column;
+       }
+        nav ul li{
+            display: block;
+            padding: 10px 0px;
+        }
+        nav ul{
+            text-align: center;
+            display: none;
+        }
+        .logo{
+            align-self: flex-start;
+        }
+        .menu{
+            display: block;
+            position: absolute;
+            right: 20px;
+            top: 50px;
+        }
+    .about{
+        padding: 50px 0px;
+        flex-direction: column;
+    }
+    .about img{
+        height: auto;
+        width: 200px;
+        border-radius:220px;
+    }
+    .ab-text{
+        width: 280px;
+    
+    }
+    .main{
+        flex-direction: column;
+    }
+    .ab-text h2{ 
+        font-size: 25px;
+        margin-bottom: 6.5px;
+    }
+    .ab-text h5{
+        letter-spacing: 0px;
+        font-size: 8px;
+        margin-bottom: 9px;
+    }
+    .ab-text p{
+      
+        line-height: 8px;
+        font-size: 6px;
+        margin-bottom: 5px;
+    }
+    button{
+        border: 1px solid transparent;
+        padding: 4px 10px;
+        font-size: 7px;
+    }
+    button:hover{
+        border: 1px solid #f9004d;
+    }
+
+    
+/*..service part*/
+
+.service{
+    width: 100%;
+    padding: 50px 0px;
+}
+.title h2{
+    font-size: 25px;
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+.box{
+    flex-direction: column;
+    min-height: 300px;
+
+}
+.contact{
+    width: 100%;
+    height: 100px;
+   
+}
+.contact p{
+    font-size: 13px;
+    margin-bottom: 9px;
+
+}
+.contact .but-2{
+    border: 1px solid transparent;
+    padding: 3px 7px;
+
+}
+footer{
+    width: 100%;
+    height: 150px;
+}
+footer p:nth-child(1){
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+footer p:nth-child(2){
+    font-size: 10px;
+    width: 290px;
+    line-height: 12px;
+
+}
+.loot{
+    margin-top: 15px;
+    font-size: 12px
+}
+
+.soc a{
+    margin: 22px 10px; 
+}
+.soc a:hover{
+    border: 1px solid aqua;
+    border-radius: 20px;
+}
+.end{
+    bottom: 13px;
+    font-size: 9px;
+}
+
+/*skills*/
+
+.skill{
+    width:100%;
+    padding: 50px 0px;
+ 
+}
+.skill img{
+    height: auto;
+    border-radius: 220px;
+    border:3px solid aqua;
+    width: 150px;
+}
+.ab-texts{
+    width: 250px;
+
+}
+.mains{
+    width: 400px;
+    max-width: 95%;
+   flex-direction: column;
+}
+.ab-texts h2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.ab-texts button{
+    padding: 4px 10px;
+    font-size: 12px;
+}
+  }
