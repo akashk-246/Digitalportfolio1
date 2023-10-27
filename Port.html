@@ -1,1 +1,105 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PORTFOLIO</title>
+
+    <link rel="stylesheet" type="text/css" href="port.css">
+
+</head>
+
+<body>
+
+    <div class="hero" >
+
+        <nav>
+
+            <h2 class="logo">Portfo<span>lio</span></h2>
+
+         <ul><li><a href="#">Home</a></li>
+
+            <li><a href="./portabout.html">About Us</a></li>
+
+            <li><a href="./poserve.html">Services</a></li>
+
+            <li><a href="./poskill.html">Skills</a></li>
+
+            <li><a href="./poserve.html#contact-me">Contact Us</a></li></ul>
+
+       <div class="menu">
+
+        <div class="menubar"></div>
+
+        <div class="menubar"></div>
+
+        <div class="menubar"></div>
+
+       </div>
+
+        </nav>
+
+        
+
+        <div class="content">
+
+            <h4>Hello,my name is</h4>
+
+            <h1>Akash <span> K</span></h1>
+
+            <h3>I 'am a College Student.</h3>
+
+            <div class="news">
+
+            <form>
+
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+
+                <input type="submit" name="submit" value="Lets Start">
+
+            </form>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script>
+
+       const menu = document.querySelector('.menu')
+
+       const space = document.querySelector('.content')
+
+        const menulist = document.querySelector('nav ul')
+
+        menu.addEventListener('click',()=>{
+
+            menulist.classList.toggle('showmenu')
+
+            if (space.style.top === "58%"){
+
+                space.style.top = "50%";
+
+            } else {
+
+                space.style.top = "58%";                    
+
+            }
+
+        })
+
+</script>
+
+</body>
+
+                  </html>
