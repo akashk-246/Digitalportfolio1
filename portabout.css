@@ -127,10 +127,8 @@ button:hover{
 .title h2{
     color: white;
     font-size: 75px;
-    width: 100%;
-    margin: 30px auto;
     text-align: center;
-    display: inline-block;
+    
 }
 .box{
     display: flex;
@@ -408,7 +406,6 @@ font-size: 65%;
 }
 .title h2{
     font-size: 25px;
-    width: 400px;
     margin: 10px auto;
     text-align: center;
 }
