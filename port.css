@@ -139,21 +139,19 @@ nav ul li a:hover{
 }
 
 .showmenu{
-
     display: block;
-
-    transition: 10s;
-
+    background-color: #728ba7;
+    width: 150px;
+    position: absolute;
+    right: 20px;
+    top: 65px;
 }
 
 .content{
 
     position: absolute;
-
     top: 50%;
-
     left: 8%;
-
     transform: translateY(-50%);
 
 }

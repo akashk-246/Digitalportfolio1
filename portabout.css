@@ -55,11 +55,17 @@ nav ul li a:hover{
 }
 .showmenu{
     display: block;
+    background-color: #728ba7;
+    width: 150px;
+    position: absolute;
+   right: 20px;
+   top: 65px;
 }
+
 .about{
     width:100%;
     padding: 100px 0px;
-    background-color: #191919;
+    background-color: #353232;
 }
 .about img{
     height: auto;
@@ -412,7 +418,7 @@ font-size: 65%;
 .box{
     flex-direction: column;
     min-height: 300px;
-
+    margin-top: 40px;
 }
 .contact{
     width: 100%;
