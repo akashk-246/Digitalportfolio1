@@ -10,14 +10,7 @@
     background-color: #191919;
     
 }
-.ten{
-    display: block;
-    height: 100vh;
-}
-.ten .hero {
-        background-color: #101010;
-    
-}
+
 nav{
     display: flex;
     align-items: center;
@@ -134,7 +127,7 @@ button:hover{
 .title h2{
     color: white;
     font-size: 75px;
-    width: 1130px;
+    width: 100%;
     margin: 30px auto;
     text-align: center;
     display: inline-block;
