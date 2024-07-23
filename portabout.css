@@ -649,6 +649,7 @@ span {
 
     .main {
         flex-direction: column;
+        gap: 30px;
     }
 
     .ab-text h2 {
@@ -787,5 +788,12 @@ span {
     .ab-texts button {
         padding: 4px 10px;
         font-size: 12px;
+    }
+    .percentage{
+        width: 80%;
+    }
+
+    .end{
+        bottom: 5px;
     }
 }

@@ -16,7 +16,7 @@
 
     width: 100%;
 
-    background: #000;
+    background: linear-gradient(to bottom left,rgb(83, 112, 112),rgb(12, 16, 26),#728ba7);
 
     background-repeat: no-repeat;
 
@@ -36,11 +36,8 @@ nav{
 
     justify-content: space-between;
 
-    padding-top: 45px;
-
-    padding-left: 8%;
-
-    padding-right: 8%;
+    padding: 45px 8% 45px 8%;
+    background: #000;
 
 }
 
@@ -166,12 +163,6 @@ h1{
 
 
 }
-
-.content h1:hover{
-      text-shadow: 0 0 25px rgb(247, 0, 255), 0 0 50px rgb(247, 0, 255), 0 0 75px rgb(247, 0, 255), 
-      0 0 100px rgb(247, 0, 255), 0 0 200px rgb(247, 0, 255), 0 0 300px rgb(247, 0, 255);
-}
-
 h3{
 
     color: white;
@@ -245,6 +236,32 @@ h4{
     width: 80px;
 
 }
+.myport{
+    font-size: 40px;
+    background: linear-gradient(  #f9ce34,  #ee2a7b , #6228d7);
+    color: transparent;
+    -webkit-background-clip: text;
+    width: 28ch;
+    white-space: nowrap;
+    animation: slide 3s linear;
+   
+}
+@keyframes slide{
+    0% {
+        width: 0ch;
+        border-right:2px white solid ;
+    }
+    100% {
+        width:28ch;
+        border: none;
+    }
+}
+
+
+
+
+
+
 
  /*media query*/
 
@@ -409,7 +426,9 @@ font-size: 65%;
        
 
     }
-
+.myport{
+    font-size: 20px;
+}
 
 
   }
