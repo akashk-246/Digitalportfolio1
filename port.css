@@ -16,7 +16,7 @@
 
     width: 100%;
 
-    background-image: url(./IMG_20230829_100452_044.jpg);
+    background: #000;
 
     background-repeat: no-repeat;
 
@@ -164,6 +164,12 @@ h1{
 
     font-size: 75px;
 
+
+}
+
+.content h1:hover{
+      text-shadow: 0 0 25px rgb(247, 0, 255), 0 0 50px rgb(247, 0, 255), 0 0 75px rgb(247, 0, 255), 
+      0 0 100px rgb(247, 0, 255), 0 0 200px rgb(247, 0, 255), 0 0 300px rgb(247, 0, 255);
 }
 
 h3{
@@ -222,7 +228,7 @@ h4{
 
     border: none;
 
-    padding: 10px 20px;
+    padding: 10px ;
 
     border-radius: 30px;
 
@@ -235,6 +241,8 @@ h4{
     top: 6px;
 
     right: 6px;
+
+    width: 80px;
 
 }
 
